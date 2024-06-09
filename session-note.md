@@ -1,20 +1,15 @@
-# Navigate to the repository
+# Git and Markdown Notes
 
-cd path/to/your/repository
+## Git Commands
+- `git init` - Initialize a new Git repository.
+- `git status` - Check the status of the repository.
+- `git add .` - Stage all changes for the next commit.
+- `git commit -m "message"` - Commit the staged changes with a message.
+- `git push origin branch-name` - Push commits to the remote repository.
 
-# Create and switch to a new branch
-
-git checkout -b notes/github-and-markdown
-
-# Create or edit the session note
-
-nano session-note.md
-
-# Add and commit changes
-
-git add session-note.md
-git commit -m "Add initial Git and Markdown notes"
-
-# Push the branch to the remote repository
-
-git push -u origin notes/github-and-markdown
+## Markdown Syntax
+- `# Header 1` - Creates a top-level header.
+- `## Header 2` - Creates a second-level header.
+- `**bold text**` - Makes text bold.
+- `*italic text*` - Makes text italic.
+- `` `code` `` - Formats text as inline code.
